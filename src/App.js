@@ -19,7 +19,7 @@ const isLoggedIn = () =>{
   return localStorage.getItem(server.TOKEN_KEY) != null;
 }
 
-// Protected Route
+// Protected Route t
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
     {...rest}
